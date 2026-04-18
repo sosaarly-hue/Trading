@@ -1,4 +1,4 @@
-# Polymarket Trading Bot — 2026 Master Framework
+# Polymarket Trading Bot — 2026 Framework
 
 Production-ready Python bot implementing statistical arbitrage, market making, and AI-powered trading strategies for Polymarket prediction markets.
 
@@ -28,7 +28,7 @@ polymarket_bot/
     └── markets.db                   # Local DuckDB database
 ```
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Python 3.10+
@@ -257,7 +257,7 @@ stats = rm.get_portfolio_stats()
 
 ---
 
-## 🛑 Risk Management
+## Risk Management
 
 ### Position Limits
 ```yaml
@@ -281,7 +281,7 @@ risk:
 
 ---
 
-## 🧪 Testing
+## Testing
 
 ### Unit tests
 ```bash
@@ -306,7 +306,7 @@ POLY_PRIVATE_KEY=... python main.py
 
 ---
 
-## 🚦 9-Week Build Timeline
+## 9-Week Build Timeline
 
 **Weeks 1-2: Infrastructure** ✅
 - [x] Polymarket CLOB authentication
@@ -329,7 +329,7 @@ POLY_PRIVATE_KEY=... python main.py
 
 ---
 
-## ⚠️ Known Limitations & TODOs
+## Known Limitations & TODOs
 
 ### Current (v0.1)
 - ❌ **No actual order execution** — quotes are generated but not placed (dry-run mode)
@@ -348,7 +348,7 @@ POLY_PRIVATE_KEY=... python main.py
 
 ---
 
-## 🔐 Security Best Practices
+## Security Best Practices
 
 **Never commit credentials!**
 ```bash
@@ -368,7 +368,7 @@ export POLY_API_KEY="..."
 
 ---
 
-## 📚 References
+## References
 
 - **Polymarket Docs:** https://docs.polymarket.com/
 - **AFT 2025 Paper:** "Automated Futures Trading in Prediction Markets"
@@ -376,7 +376,7 @@ export POLY_API_KEY="..."
 
 ---
 
-## 📞 Support
+## Support
 
 For issues or questions:
 - Check logs in `./logs/` (once implemented)
@@ -385,13 +385,13 @@ For issues or questions:
 
 ---
 
-## 📝 License
+## License
 
 MIT License — use and modify freely for personal trading.
 
 ---
 
-## ⭐ Key Metrics to Track
+## Key Metrics to Track
 
 Once live:
 
@@ -406,7 +406,4 @@ Once live:
 
 ---
 
-**Happy trading! 🚀**
-
 _Built for Polymarket 2026. Validate all strategies with small capital first._
-
